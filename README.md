@@ -81,7 +81,7 @@ The screenshot below visualises the safety margin in red, extending from the phy
 <img width="416" alt="Screenshot" src="https://github.com/SenSaa/AstarReedsShepp/assets/19212519/522dcc16-467c-4e38-a3a1-1999f6d75630">
 
 
-The search steps slowed down to show how the path searching takes place (black squares denoting search node cells, and grey lines being reeds shepp path segments, and final smooth path as purple line):
+The search steps slowed down to show how the path searching takes place (black squares denoting search node cells, grey lines being reeds shepp path segments, and final smooth path as purple line):
 
 ![Search_Steps](https://github.com/SenSaa/AstarReedsShepp/assets/19212519/1d1cc6bf-febb-4a02-8b75-9696f2c86f9b)
 
