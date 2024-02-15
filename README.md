@@ -78,9 +78,6 @@ The search steps slowed down to show how the path searching takes place:
 ...
 
 
-
-
-
 # Behaviour Planning
 ![image](https://github.com/SenSaa/AstarReedsShepp/assets/19212519/5d28354b-7307-46c5-85b2-2d98bbfaa9ce)
 
