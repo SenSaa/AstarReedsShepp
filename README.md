@@ -44,7 +44,7 @@ The main difference between a standard A* and this implementation, is that inste
 ### Reeds-Shepp
 For every iteration in the A* search, once we retrieve the lowest cost node from the priority queue, we check if the current node is within a certain distance from the goal.
 If that's the case, we construct a reeds shepp path from the current node to the goal, and if this path is feasible, we end the search.
-This is where the similarity between this approach and Hybrid A* (approach used by Stanford in the DARPA urban challenege) becomes apparent, except with simplifications in approach and reduced optimality. :)
+This is where the similarity between this approach and Hybrid A* (approach used by Stanford in the DARPA urban challenege) becomes apparent, which is the inspiration.
 
 ### Path Smoothing
 The approach used is gradient descent optimisation to produce a smooth path.
