@@ -4,11 +4,8 @@ A* + Smoothing + Reeds Sheep in Unity (C#)
 
 Videos:
 
-https://github.com/SenSaa/AstarReedsShepp/assets/19212519/9bd328d6-8313-48b2-9bc3-7800390931ea
+...
 
-https://github.com/SenSaa/AstarReedsShepp/assets/19212519/e30c02a8-2c6e-4134-a291-b3902eaf807d
-
-https://github.com/SenSaa/AstarReedsShepp/assets/19212519/fec0db87-5b21-4fc5-a995-256c30fefc62
 
 # Architecture
 
@@ -78,7 +75,10 @@ The screenshot below visualises the safety margin in red, extending from the phy
 
 The search steps slowed down to show how the path searching takes place:
 
-https://github.com/SenSaa/AstarReedsShepp/assets/19212519/93995d97-2159-4bf8-a4f6-4a72a335393b
+...
+
+
+
 
 
 # Behaviour Planning
