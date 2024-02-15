@@ -2,10 +2,17 @@
 A* + Smoothing + Reeds Sheep in Unity (C#)
 <br></br>
 
-Videos:
+Reverse parking:
 
-...
+![Reverse_Parking](https://github.com/SenSaa/AstarReedsShepp/assets/19212519/ededeacd-1309-467c-984c-64def4e4a12b)
 
+Straight Parking:
+
+![Straight_Parking](https://github.com/SenSaa/AstarReedsShepp/assets/19212519/91e3ade0-6b41-4d80-8887-0f4047923908)
+
+Perpendicular parking:
+
+![Perpendicular_Parking](https://github.com/SenSaa/AstarReedsShepp/assets/19212519/c7cabd47-a0b9-4f3d-b8b0-590408ecefb8)
 
 # Architecture
 
@@ -44,6 +51,7 @@ The approach used is gradient descent optimisation to produce a smooth path.
 In this approach we minimise the distance between the points.
 In the first step we minimise the difference between the original and smooth point, then in the second step we minimise the distance between the smooth points.
 Details about the algorithm can be found in Sebastian Thrun's Udacity courses (AI for robotics and possibly in SDC):
+
 https://www.youtube.com/watch?v=pjgfffzvbUg
 
 
@@ -70,12 +78,12 @@ Generating paths that do not intersect collisions are in two steps:
 
 The screenshot below visualises the safety margin in red, extending from the physical obstacles in white:
 
-<img width="516" alt="Screenshot" src="https://github.com/SenSaa/AstarReedsShepp/assets/19212519/522dcc16-467c-4e38-a3a1-1999f6d75630">
+<img width="416" alt="Screenshot" src="https://github.com/SenSaa/AstarReedsShepp/assets/19212519/522dcc16-467c-4e38-a3a1-1999f6d75630">
 
 
-The search steps slowed down to show how the path searching takes place:
+The search steps slowed down to show how the path searching takes place (black squares denoting search node cells, and grey lines being reeds shepp path segments, and final smooth path as purple line):
 
-...
+![Search_Steps](https://github.com/SenSaa/AstarReedsShepp/assets/19212519/1d1cc6bf-febb-4a02-8b75-9696f2c86f9b)
 
 
 # Behaviour Planning
